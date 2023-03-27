@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Login, Register, PublicLayout, Home } from "../views";
+import { Login, Register, PublicLayout, Home, POS } from "../views";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/pos",
+        element: <POS />,
       },
     ],
   },

@@ -6,7 +6,9 @@ const PublicLayout = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <section className="w-full min-h-screen flex justify-center items-center">
+        <Outlet />
+      </section>
       <Footer />
     </>
   );
